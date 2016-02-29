@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		CF76005B1C833095002D5935 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF76005A1C833095002D5935 /* main.m */; };
 		CF76005E1C833095002D5935 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF76005D1C833095002D5935 /* AppDelegate.m */; };
-		CF7600611C833095002D5935 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7600601C833095002D5935 /* ViewController.m */; };
 		CF7600661C833095002D5935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7600651C833095002D5935 /* Assets.xcassets */; };
 		CF7600741C833096002D5935 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7600731C833096002D5935 /* ______Tests.m */; };
 		CF76007F1C833096002D5935 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF76007E1C833096002D5935 /* ______UITests.m */; };
+		CF76008E1C83FB92002D5935 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF76008D1C83FB92002D5935 /* XMGTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 		CF76005A1C833095002D5935 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF76005C1C833095002D5935 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF76005D1C833095002D5935 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CF76005F1C833095002D5935 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF7600601C833095002D5935 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF7600651C833095002D5935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF76006A1C833095002D5935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF76006F1C833096002D5935 /* 百思不得其姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得其姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +45,8 @@
 		CF76007A1C833096002D5935 /* 百思不得其姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得其姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF76007E1C833096002D5935 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		CF7600801C833096002D5935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF76008C1C83FB92002D5935 /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
+		CF76008D1C83FB92002D5935 /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 			children = (
 				CF76005C1C833095002D5935 /* AppDelegate.h */,
 				CF76005D1C833095002D5935 /* AppDelegate.m */,
-				CF76005F1C833095002D5935 /* ViewController.h */,
-				CF7600601C833095002D5935 /* ViewController.m */,
+				CF76008C1C83FB92002D5935 /* XMGTabBarController.h */,
+				CF76008D1C83FB92002D5935 /* XMGTabBarController.m */,
 				CF7600591C833095002D5935 /* Supporting Files */,
 			);
 			path = "百思不得其姐";
@@ -196,6 +196,7 @@
 		CF76004E1C833095002D5935 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XMG;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "冯庄玥";
 				TargetAttributes = {
@@ -265,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7600611C833095002D5935 /* ViewController.m in Sources */,
+				CF76008E1C83FB92002D5935 /* XMGTabBarController.m in Sources */,
 				CF76005E1C833095002D5935 /* AppDelegate.m in Sources */,
 				CF76005B1C833095002D5935 /* main.m in Sources */,
 			);
